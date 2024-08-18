@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('hello') {
+    stage('hello Deepti Demo') {
       steps {
-        sh 'echo "Hello World"'
+        sh 'echo "Hello World from Deepti"'
       }
     }
   }
